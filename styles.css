@@ -20,7 +20,7 @@ html, body {
     padding: 0;
 }
 .mdl-demo .mdl-layout__header-row {
-    padding-left: 80px;
+    padding-left: 16px;
 }
 .mdl-demo .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
     font-size: inherit;
@@ -115,7 +115,7 @@ html, body {
     margin-bottom: 48px;
 }
 .mdl-demo section.section--center {
-    max-width: 860px;
+    max-width: 1100px;
 }
 .mdl-demo #features section.section--center {
     max-width: 620px;
@@ -252,12 +252,131 @@ html, body {
     z-index: 99;
 }
 
-
+/*Added Code*/
 
 .titlebackground {
-    background: url('img/transparent.jpg') center / cover;
+    background-color: #2c2c2c;
 }
 
 .mdl-layout__tab-bar {
     background-color: transparent;
 }
+
+
+#about p {
+    font-size: 1.3em;
+}
+
+#work .slim {
+    font-size: .85em;
+    font-weight: 300;
+}
+#work p {
+    margin-top: -10px;
+}
+
+#skill {
+    margin-top: 10px;
+}
+
+.workimg {
+    width: 100%;
+    float: left;
+    padding-right: 15px;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
+.autodesk {
+    background: url(img/autodesk.jpg) center no-repeat;
+    background-size: cover;
+}
+.adobe {
+    background: url(img/adobe.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.web {
+    background: url(img/hc.svg) center no-repeat;
+    background-size: cover;
+}
+
+#activities h6 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+#activities h7 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#activities p {
+    margin: 0;
+}
+
+.icon {
+    height: 150px;
+    width: auto;
+}
+
+.icontext {
+    text-align: center;
+    margin-top: 10px;
+    max-width: 170px;
+}
+.aligned {
+    text-align: center;
+    padding: 10px;
+    max-width: 170px;
+}
+
+.hackheading {
+    padding-top: 45px;
+}
+
+.resumebutton {
+    display: block;
+    margin: 40px auto 10px auto;
+}
+
+.animation-square.mdl-card {
+    width: 320px;
+    height: 430px;
+}
+
+
+.khegif {
+    background: url(img/khe.gif) center no-repeat;
+    background-size: cover;
+}
+
+.snapchat {
+    width: 278px;
+    height: 488px;
+    padding: 5px;
+}
+
+
+.arch {
+    width: 384px;
+    height: 216px;
+    padding: 5px;
+}
+
+.comp {
+    height: 259px;
+    padding: 5px;
+}
+.vfx {
+    padding: 5px;
+}
+
+.titlegap {
+    margin: 0;
+    padding-left: 5px;
+}
+
