@@ -267,6 +267,29 @@ html, body {
     font-size: 1.3em;
 }
 
+.evenit a{
+    padding-top: 10px;
+    margin: 0 auto;
+    
+}
+
+.evenit a:nth-child(1) {
+    color: dodgerblue;
+}
+
+.evenit a:nth-child(3) {
+    color: purple;
+}
+
+.devpost {
+    background: url(img/devpost.svg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+}
+
 #work .slim {
     font-size: .85em;
     font-weight: 300;
@@ -380,3 +403,6 @@ html, body {
     padding-left: 5px;
 }
 
+.hackimg {
+ margin: 0 auto;
+}
